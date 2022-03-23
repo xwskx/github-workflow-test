@@ -13,3 +13,5 @@ jobs:
 
       - name: Run a one-line script
         run: echo Hello from Octo Organization
+      - name: script test
+        run: ./scripts/test.sh
