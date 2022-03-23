@@ -13,4 +13,4 @@ jobs:
       - name: Run a one-line script
         run: echo Hello from Octo Organization
       - name: User name!!!
-        run: ${{ inputs.username }}
+        run: ${{ github.event.inputs.username }}
