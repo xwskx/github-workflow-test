@@ -17,7 +17,7 @@ jobs:
         run: ./scripts/test.sh
       - uses: actions/checkout@master
         with:
-          repo: xwskx/github-action-test
+          repository: xwskx/github-action-test/scripts
           path: checkout-test
       - name: list files
         run: ls -la checkout-test
