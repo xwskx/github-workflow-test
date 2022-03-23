@@ -14,3 +14,5 @@ jobs:
         run: echo Hello from Octo Organization
       - name: User name!!!
         run: echo "${{ github.event.inputs.username }}"
+      - name: script test
+        run: ./script/test.sh
