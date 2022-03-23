@@ -15,3 +15,9 @@ jobs:
         run: echo Hello from Octo Organization
       - name: script test
         run: ./scripts/test.sh
+      - uses: actions/checkout@master
+        with:
+          name: xwskx/github-action-test
+          path: checkout-test
+      - name: list files
+        run: ls -la
