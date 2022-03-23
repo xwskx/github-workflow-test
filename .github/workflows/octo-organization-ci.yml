@@ -21,3 +21,5 @@ jobs:
           path: checkout-test
       - name: list files
         run: ls -la checkout-test
+      - name: checkout script test
+        run: ./checkout-test/scripts/test.sh
