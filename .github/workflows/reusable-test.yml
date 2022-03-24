@@ -16,3 +16,5 @@ jobs:
         run: echo "${{ github.event.inputs.username }}"
       - name: script test
         run: ./script/test.sh
+      - name: Repo Name
+        run: echo "${{ github.event.repository.name }}"
