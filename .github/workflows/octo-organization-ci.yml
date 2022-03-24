@@ -23,3 +23,5 @@ jobs:
         run: ls -la checkout-test
       - name: checkout script test
         run: ./checkout-test/scripts/test.sh
+      - name: repo name
+        run: echo "${{ github.event.repository.name }}"
