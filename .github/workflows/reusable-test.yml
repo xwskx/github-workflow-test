@@ -13,6 +13,6 @@ jobs:
       - name: Run a one-line script
         run: echo Hello from Octo Organization
       - name: User name!!!
-        run: echo "${{ github.event.inputs.username }}"
+        run: echo "${{ inputs.username }}"
       - name: Repo Name
         run: echo "${{ github.event.repository.name }}"
